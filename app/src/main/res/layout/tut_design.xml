@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="10dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/tutor1img"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:src="@drawable/tutor1"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@+id/tutor1img"
+            app:layout_constraintTop_toTopOf="@+id/tutor1img"
+            android:textSize="16sp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:padding="0dp"
+            android:id="@+id/tutor1txt"
+            android:text="Arsha - 10+ Years of Experience"/>
+
+        <TextView
+            android:id="@+id/tutor1details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="142dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:text="I am so passionate about teaching. I have 10+ years of experience."
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tutor1img"
+            app:layout_constraintTop_toBottomOf="@+id/tutor1txt" />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:progressTint="@color/Golden"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:scaleX="0.7"
+            android:rating="4.5"
+            android:scaleY="0.7"
+            android:transformPivotX="0dp"
+            android:transformPivotY="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tutor1img"
+            app:layout_constraintTop_toBottomOf="@id/tutor1details"
+            android:layout_marginStart="18dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

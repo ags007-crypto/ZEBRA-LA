@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/worldbgdark">
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+android:orientation="vertical">
+
+
+    <TextView
+
+        android:text="Address: 5/3, 3rd Street, Puliyur Main Rd,
+Trustpuram, Kodambakkam, Chennai - 24"
+        android:id="@+id/address"
+android:textColor="@android:color/white"
+        android:background="#80000000"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textAlignment="center"
+        android:paddingVertical="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/main_button1"
+        android:textColor="@android:color/white"
+        android:id="@+id/btnAbout"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="About Us"
+        android:layout_marginTop="30dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/main_button2"
+        android:textColor="@android:color/white"
+        android:id="@+id/btnFinal_Assignment"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Our Students Final Assignments"
+        android:layout_marginTop="30dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/main_button1"
+        android:textColor="@android:color/white"
+        android:id="@+id/btnTutor_list"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Chat with Our Tutor \n (For Teaching related queries)"
+        android:layout_marginTop="30dp"/>
+    <!--<androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/main_button2"
+        android:textColor="@android:color/white"
+        android:id="@+id/btnTutor"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Hiring Spoken Tamil Tutor!"
+        android:layout_marginTop="30dp"/>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:id="@+id/glow"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/main_button3"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:alpha="0.5">
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:id="@+id/btnJoin_details"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:text="Check Online Tutor Availability!"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+
+</RelativeLayout>

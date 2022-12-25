@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "932799752258",
+    "firebase_url": "https://zebra-e8a23-default-rtdb.firebaseio.com",
+    "project_id": "zebra-e8a23",
+    "storage_bucket": "zebra-e8a23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932799752258:android:9399e2a23d5ef4d47625db",
+        "android_client_info": {
+          "package_name": "com.firstapp.zebra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932799752258-2tg2gmuqota84ra9302ov22e2mgov610.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVH4QYwEubooaOMCNFwB1FuEBXccs6Cnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932799752258-2tg2gmuqota84ra9302ov22e2mgov610.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
